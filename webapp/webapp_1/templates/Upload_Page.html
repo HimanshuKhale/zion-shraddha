@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="navbar-nav mr-auto">
+    <a class="nav-item nav-link" href="{{ url_for('main.upload_irex') }}">Upload IREX</a>
+    <a class="nav-item nav-link" href="{{ url_for('main.upload_pci') }}">Upload EPC</a>
+    <a class="nav-item nav-link" href="{{ url_for('main.upload_sb') }}">Upload Shipping Bill</a>
+    <a class="nav-item nav-link" href="{{ url_for('main.disposal') }}">Create Disposal Instruction</a>
+    
+
+{% endblock content %} 
+    
